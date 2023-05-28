@@ -67,7 +67,7 @@ const config = {
         title: 'Classroom360',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/pink-unicorn.png',
         },
         items: [
           {
