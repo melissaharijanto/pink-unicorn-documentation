@@ -90,9 +90,17 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: "About",
+                to: '/docs/intro-and-setup/about',
               },
+              {
+                label: 'Intro and Setup',
+                to: '/docs/category/introduction-and-setup',
+              },
+              {
+                label: 'Implementation',
+                to: '/docs/category/implementation'
+              }
             ],
           },
           {
@@ -102,6 +110,10 @@ const config = {
                 label: 'GitHub Source Code',
                 href: 'https://github.com/melissaharijanto/pink-unicorn',
               },
+              {
+                label: 'Deployment Site',
+                href: "https://classroom-360.netlify.app",
+              }
             ],
           },
         ],
