@@ -1,14 +1,25 @@
-# Website
+# Classroom360 Documentation
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This project serves to provide documentation for [Classroom360](https://github.com/melissaharijanto/pink-unicorn) submitted as an entry to NUS Computing Club Life Hack 2023.
 
-### Installation
+Check out the deployment of the documentation site here! [https://pink-unicorn-documentation.vercel.app](https://pink-unicorn-documentation.vercel.app)
+
+This project is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+
+
+### Tech Stack
+
+- Docusaurus 2
+  - Built on top of JavaScript and Markdown rendering
+- Vercel (Deployment)
+
+## Installation
 
 ```
 $ yarn
 ```
 
-### Local Development
+## Local Development
 
 ```
 $ yarn start
@@ -16,7 +27,7 @@ $ yarn start
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-### Build
+## Build
 
 ```
 $ yarn build
@@ -24,7 +35,7 @@ $ yarn build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-### Deployment
+## Deployment
 
 Using SSH:
 
